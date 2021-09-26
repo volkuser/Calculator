@@ -136,6 +136,7 @@ namespace WPF_Calculator
             {
                 // clearing of textbox
                 expression = addition = string.Empty;
+                LabelPanel.Text = "0";
                 result = 0;
                 // return standard font size
                 LabelPanel.FontSize = 30;
@@ -206,6 +207,10 @@ namespace WPF_Calculator
                 }
                 if (mode == "programming")
                 {
+                    // clearing of textbox
+                    expression = addition = string.Empty;
+                    LabelPanel.Text = "0";
+                    result = 0;
                     // return standard grid layout for textbox
                     Grid.SetColumnSpan(LabelPanel, 4);
                     /* return ordinary size of length
