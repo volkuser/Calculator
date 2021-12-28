@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e438563d-a87f-42f5-8e40-63c3a72cc7bc": {
+      "ProjectGuid": "e438563d-a87f-42f5-8e40-63c3a72cc7bc",
+      "DisplayName": "WPF-Calculator",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
